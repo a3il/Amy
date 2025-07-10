@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>amy.ae – Under Maintenance</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: Arial, sans-serif;
+      color: #333;
+      text-align: center;
+      padding: 80px 20px;
+      margin: 0;
+    }
+    .logo {
+      max-width: 200px;
+      margin-bottom: 40px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+    .btn-whatsapp {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #25D366;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    .btn-whatsapp:hover {
+      opacity: 0.9;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <!-- Logo: put your logo file in the same folder, named logo.png -->
+  <img src="logo.png" alt="Amy Logo" class="logo" />
+
+  <h1>We’ll Be Back Soon!</h1>
+  <p>Our e-commerce site is under maintenance.<br>
+     We appreciate your patience.</p>
+  
+  <!-- WhatsApp link: replace 971501234567 with your actual number (no + or dashes) -->
+  <a href="https://wa.me/971526772491?text=Hello%20Amy.ae%20team%2C%20I%20would%20like%20to%20place%20an%20order." 
+     class="btn-whatsapp" target="_blank" rel="noopener">
+    Click here to contact us on WhatsApp
+  </a>
+
+  <footer>
+    Or email us at <a href="mailto:info@amy.ae">info@amy.ae</a>
+  </footer>
+</body>
+</html>
